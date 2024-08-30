@@ -37,4 +37,3 @@ def create_connection(database_path: str) -> Generator[Connection, None, None]:
         conn.rollback()
     finally:
         conn.close()
-    
